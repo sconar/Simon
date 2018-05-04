@@ -1,0 +1,285 @@
+body { background: url(https://5dwallpaper.com/wp-content/uploads/2017/07/Apple-Wood-Desktop-Mobile-Theme-Iphone-Formats-Design-wallpaper-wp3802303.jpg) no-repeat;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: auto;
+    
+}
+.base {
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    background-color: #333;
+    top: 10vh;
+    box-shadow: 0px 0px 12px #222;
+}
+
+.center{
+    width: 230px;
+    height: 230px;
+    background-color: #e1e1d0;
+    border-radius: 145px;
+    margin: 0 auto;
+    position: absolute;
+    left: 110px;
+    top: 110px;
+    z-index: 1;
+    border: 15px solid #333;
+}
+
+.simonButton {
+    width: 194px;
+	height: 194px;
+	float: left;
+}
+
+#r {
+    background: #8b0000	; /*darkred*/
+    border-top-left-radius: 225px;
+    position: relative;
+    text-align: center;
+    box-shadow: 2px 2px 5px black;
+    width: 210px;
+    height: 210px;
+    float: left;
+    top: 15px;
+    left: 15px;
+    opacity: 0.8;
+}
+
+#r:active {
+    box-shadow: 0px 0px 20px 10px #ff0000; /*red*/
+    background: #ff0000;
+}
+
+#b {
+    background: #00008b	; /*darkblue*/
+    border-top-right-radius: 225px;
+    position: relative;
+    text-align: center;
+    box-shadow: 2px 2px 5px black;
+    width: 210px;
+    height: 210px;
+    float: right;
+    top: 15px;
+    right: 15px;
+    opacity: 0.8;
+}
+
+#b:active {
+    box-shadow: 0px 0px 20px 10px #0000ff; /*blue*/
+    background: #0000ff;
+}
+
+#y {
+    background: #ffd700	; /*gold (darkyellow... sort of)*/
+    border-bottom-left-radius: 225px;
+    position: relative;
+    text-align: center;
+    box-shadow: 2px 2px 5px black;
+    width: 210px;
+    height: 210px;
+    float: left;
+    bottom: -16px;
+    left: 15px;
+    opacity: 0.8;
+}
+
+#y:active {
+    box-shadow: 0px 0px 20px 10px #ffff00; /*yellow*/
+    background: #ffff00;
+}
+
+#g {
+    background: #006400	; /*darkgreen*/
+    border-bottom-right-radius: 225px;
+    position: relative;
+    text-align: center;
+    box-shadow: 2px 2px 5px black;
+    width: 210px;
+    height: 210px;
+    float: right;
+    bottom: -16px;
+    right: 15px;
+    opacity: 0.8;
+}
+
+#g:active {
+    box-shadow: 0px 0px 20px 10px #008000; /*green*/
+    background: #008000;
+}
+
+.g:active {
+    box-shadow: 0px 0px 20px 10px #008000; /*green*/
+    background: #008000;
+}
+
+#screen {
+    width: 40px;
+    height: 35px;
+    margin-top: 45px;
+    border-radius: 15px;
+    background-color: #3d3d29;
+    outline: 0;
+    color: #cc0000;
+    font-size: 25px;
+    line-height: 35px;  
+}
+
+.btn {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;	
+	border:#333 3px solid;
+	margin: 0 auto;	
+	cursor: pointer;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+.btn:active {  
+    transform: translateY(1px);
+    -webkit-box-shadow: none;
+	   -moz-box-shadow: none;
+	        box-shadow: none;
+}
+
+.labels {
+	float: left;
+	margin-left: 25px;
+	width: 20px;
+}
+
+#start {	 	
+	margin-top:65px;
+}
+
+#strict {		
+	background: #FFDC00;
+	margin-top: 9px;
+}
+
+#strictLight {
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;	
+	border:2px solid #333;
+	background: #333;
+	margin-top: 48px;
+	margin-left: 9px;
+}
+
+.clicks{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 10px;
+}
+
+.clicks:active,.fx{
+	transform: translateY(1px);
+  	opacity: 0.7;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+.ledOn{
+	background: #FF4136!important;
+}
+
+.onOff {
+    position: relative;
+    left: 55px;
+    width: 80px;
+    -webkit-user-select:none;
+       -moz-user-select:none; 
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.togg-switch {
+    display: none;
+}
+
+.switch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #FFFFFF;
+    border-radius: 3px;
+}
+
+.toggle {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.toggle:before, .toggle:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    font-size: 14px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.toggle:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #EEEEEE;
+    color: #38FF42;
+    text-align: left;
+}
+
+.toggle:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE;
+    color: #999999;
+    text-align: right;
+}
+
+.switch {
+    display: block;
+    width: 30px;
+    margin: 0px;
+    height: 33px;
+    line-height: 30px;
+    background: #1A1818;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 46px;
+    border: 2px solid #FFFFFF;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+.togg-switch:checked + .switch-label .toggle {
+    margin-left: 0;
+}
+
+.togg-switch:checked + .switch-label .switch {
+    right: 0px; 
+    background-color: #00A2FF; 
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: white;
+    text-align: center;
+}
